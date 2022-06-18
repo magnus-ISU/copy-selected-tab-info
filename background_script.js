@@ -58,7 +58,7 @@ async function copyMarkdownList() {
   navigator.clipboard.writeText(markdown);
 }
 
-browser.browserAction.onClicked.addListener(copyTitleAndUrl);
+browser.browserAction.onClicked.addListener(copyUrlOnly);
 
 const copyUrlOnlyMenuID = "copy-url-only";
 browser.contextMenus.create({
