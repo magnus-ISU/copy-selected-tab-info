@@ -1,19 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "Copy Selected Tab Info",
-  "description": "Copies the URLs of the currently selected tabs to clipboard",
-  "version": "0.0.3",
-  "icons": {
+"manifest_version": 2,
+"name": "Copy Selected Tab URL",
+"description": "Copies the URLs of the currently selected tabs to clipboard",
+"version": "0.0.3",
+"icons": {
+  "64": "icons/copy-selected-tab-info-ICON-64x64.png"
+},
+"permissions": ["tabs", "contextMenus", "clipboardWrite"],
+"background": {
+  "scripts": ["background_script.js"]
+},
+"content_scripts": [],
+"browser_action": {
+  "default_icon": {
     "64": "icons/copy-selected-tab-info-ICON-64x64.png"
-  },
-  "permissions": ["tabs", "contextMenus", "clipboardWrite"],
-  "background": {
-    "scripts": ["background_script.js"]
-  },
-  "content_scripts": [],
-  "browser_action": {
-    "default_icon": {
-      "64": "icons/copy-selected-tab-info-ICON-64x64.png"
-    }
   }
+},
+"browser_specific_settings": {
+  "gecko": {
+    "id": "copy-selected-tab-info@github.com.magnus-ISU.copy-selected-tab-info"
+  }
+}
 }

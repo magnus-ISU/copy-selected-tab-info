@@ -5,7 +5,7 @@ This Firefox extension allows you to copy the URLs and titles of the currently s
 Copying a URL is an action I do many times a day. Copying a tab's title is a novelty thing I might want to someday do, probably in markdown anyway. This makes the most common action the default one, a principle many software writers can't wrap their heads around for some reason.
 
 ## Installation
-The old add-on can be installed through the [Firefox Add-On Gallery](https://addons.mozilla.org/de/firefox/addon/copy-selected-tab-info/).
+The add-on can be installed through the [Firefox Add-On Gallery](https://addons.mozilla.org/en-US/firefox/addon/copy-selected-tab-url/).
 
 ## Usage
 1. Select tabs in the tab bar.
